@@ -2,9 +2,9 @@ import Quill from 'quill'
 
 new Quill('#editor', {
   modules: {
-    syntax: true,
-    toolbar: '#toolbar-container',
+    syntax: true, // ???
+    toolbar: '#toolbar-container', // id del contenedor de la barra de herramientas
   },
-  placeholder: 'Compose an epic...',
+  placeholder: 'Aqui escribe tu texto...',
   theme: 'snow',
 })

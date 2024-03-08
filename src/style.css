@@ -4,3 +4,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+
+.ql-formats{
+  border: 1px solid #b6b6b6;
+}
