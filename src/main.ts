@@ -3,7 +3,7 @@ import optionsQuill from './optionsQuill'
 
 const quill = new Quill('#editor', optionsQuill)
 
-// Establecer el contenido inicial del editor
+// Establecer el contenido inicial del editor usando un Delta
 const Delta = Quill.import('delta')
 
 quill.setContents(
@@ -25,3 +25,12 @@ document.querySelector<HTMLButtonElement>('#getContentsButton')!.addEventListene
   console.log(quill.getContents()) // devuelve un Delta
 })
 
+// Boton para obtener la longitud del texto
+document.querySelector<HTMLButtonElement>('#getLengthButton')!.addEventListener('click', () => {
+  console.log(quill.getLength()) // devuelve un número
+})
+
+// Boton para obtener el texto
+document.querySelector<HTMLButtonElement>('#getTextButton')!.addEventListener('click', () => {
+  console.log(quill.getText()) // devuelve un string
+})
