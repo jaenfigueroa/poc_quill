@@ -45,3 +45,27 @@ document.querySelector<HTMLButtonElement>('#getSemanticHTMLButton')!.addEventLis
 document.querySelector<HTMLButtonElement>('#insertEmbedButton')!.addEventListener('click', () => {
   console.log(quill.insertEmbed(5, 'image', 'https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png'))
 })
+
+// Boton para insertar texto con/sin formato
+document.querySelector<HTMLButtonElement>('#insertTextButton')!.addEventListener('click', () => {
+  console.log(quill.insertText(0, 'Texto agregado', {
+    bold: true,
+    color: '#f00'
+  }, 'api')) // por alguna razon tenemos que indicar que el source es 'api', cuando es su valor por defecto
+})
+
+// Boton para sobrescribir todo el contenido del editor por un delta
+document.querySelector<HTMLButtonElement>('#setContentsButton')!.addEventListener('click', () => {
+  console.log(quill.setContents([
+    { insert: 'Jarn ' },
+    { insert: 'Figueroa ', attributes: { bold: true, color: '#f0f' } },
+    { insert: 'Llampi' },
+    { insert: '\n' },
+  ]))
+})
+
+// Boton para reemplazar contenido del editor con un texto plano
+document.querySelector<HTMLButtonElement>('#setTextButton')!.addEventListener('click', () => {
+  console.log(quill.setText('Texto agregado'))
+})
+
