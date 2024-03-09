@@ -34,3 +34,14 @@ document.querySelector<HTMLButtonElement>('#getLengthButton')!.addEventListener(
 document.querySelector<HTMLButtonElement>('#getTextButton')!.addEventListener('click', () => {
   console.log(quill.getText()) // devuelve un string
 })
+
+// Boton para obtener un trozo/todo el html semantico
+document.querySelector<HTMLButtonElement>('#getSemanticHTMLButton')!.addEventListener('click', () => {
+  console.log(quill.getSemanticHTML(0, 10)) 
+})
+
+
+// Boton para insertar un embebido
+document.querySelector<HTMLButtonElement>('#insertEmbedButton')!.addEventListener('click', () => {
+  console.log(quill.insertEmbed(5, 'image', 'https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png'))
+})
