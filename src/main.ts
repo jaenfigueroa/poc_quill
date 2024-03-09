@@ -69,3 +69,7 @@ document.querySelector<HTMLButtonElement>('#setTextButton')!.addEventListener('c
   console.log(quill.setText('Texto agregado'))
 })
 
+// Boton para actualizar el contenido del editor usando un delta
+document.querySelector<HTMLButtonElement>('#')!.addEventListener('click', () => {
+  console.log()
+})
