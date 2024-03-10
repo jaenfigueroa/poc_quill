@@ -1,3 +1,4 @@
+import { Delta } from "quill/core"
 import quill from "./main"
 
 // Boton para eliminar texto
@@ -55,6 +56,11 @@ document.querySelector<HTMLButtonElement>('#setTextButton')!.addEventListener('c
 })
 
 // Boton para actualizar el contenido del editor usando un delta
-document.querySelector<HTMLButtonElement>('#')!.addEventListener('click', () => {
-  console.log()
+document.querySelector<HTMLButtonElement>('#updateContentsButton')!.addEventListener('click', () => {
+  console.log(quill.updateContents(new Delta()
+    .retain(5)                                    // saltar 5 caracteres (desde el inicio del texto)
+    .delete(5)                                    // eliminar los siguientes 5 caracteres
+    .insert('Jaen',{bold: true, color: "#0ff"})   // insertar 'Jaen' en esa posición, con ciertos estilos
+    .retain(1, { bold: true, color: "#f0f" })     // aplicar negrita al siguiente caracter 
+  ))
 })
