@@ -1,5 +1,5 @@
 import { Delta } from "quill/core"
-import quill from "./main"
+import quill from "."
 
 // Boton para eliminar texto
 document.querySelector<HTMLButtonElement>('#deleteTextButton')!.addEventListener('click', () => {
