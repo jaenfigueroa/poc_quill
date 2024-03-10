@@ -3,14 +3,13 @@ name: Desplegar en github pages
 on:
   push:
     tags:
-      - 'deploy_*'
+      - 'dev_*'
 
 permissions: write-all
 
 jobs:
   
   build:
-    environment: dev
     runs-on: ubuntu-latest
 
     steps:
@@ -39,4 +38,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist
-          destination_dir: dev
+          destination_dir: /
