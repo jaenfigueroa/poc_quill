@@ -30,7 +30,7 @@
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
 
       <!-- BARRA DE HERRAMIENTAS -->
-      <div id="toolbar-container">
+      <span id="toolbar-container">
 
         <span class="ql-formats"> <!-- fuente y tamaño -->
           <select class="ql-font"></select>
@@ -115,7 +115,17 @@
           <button id="scrollSelectionInToView" title="Desplazar el scroll hasta donde se encuentra el texto seleccionado/cursor">4x</button>
         </span>
 
-        
+        <!-- custom: editor buttons -->
+        <span class="ql-formats">
+          <button id="blurButton" title="Quitar el blur al editor? a mi me lo activa -_-">blur</button>
+          <button id="disableButton" title="Desactivar el editor">dis</button>
+          <button id="enableButton" title="activar el editor">ena</button>
+          <button id="focusButton" title="darle el foco al editor">foc</button>
+          <button id="hasFocusButton" title="comprobar si el editor tiene el foco">hf</button>
+          <button id="updateButton" title="buscar actualizaciones, modo colaborativo">upd</button>
+          <button id="scrollRectIntoViewButton" title="para desplzar el scroll a una ubicacación dada por pixel">scrl</button>
+        </span>
+
       </div>
 
       <!-- CONTENEDOR DEL EDITOR -->
