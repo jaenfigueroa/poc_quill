@@ -1,4 +1,4 @@
 import './quill'
-import './quill/contentListenners'
-import './quill/formatListenners'
-import './quill/selecctionListenners'
+import './quill/listeners/content'
+import './quill/listeners/format'
+import './quill/listeners/selecction'

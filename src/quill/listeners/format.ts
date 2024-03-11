@@ -1,4 +1,4 @@
-import quill from '.'
+import quill from '..'
 
 /* 
   ESTILOS/FORMATOS APLICABLES
