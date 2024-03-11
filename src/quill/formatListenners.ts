@@ -31,4 +31,13 @@ document.querySelector<HTMLButtonElement>('#getFormatButton')!.onclick = () => {
   // console.log(quill.getFormat(0, 10)) <-- en un rango dado
 }
 
-
+// Boton para remover el formato de un rango dado 
+document.querySelector<HTMLButtonElement>('#removeFormatButton')!.onclick = () => {
+  console.log(quill.removeFormat({
+    index: 0,
+    length: 10
+  }, {
+    bold: true, // indica que solo se removera el formato bold e italic
+    italic: true
+  }))
+} 
