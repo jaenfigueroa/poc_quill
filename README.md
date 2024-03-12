@@ -64,7 +64,7 @@ Playground Delta: https://quilljs.com/docs/delta
       - [ ] register
       - [ ] addContainer
       - [ ] getModule
-- [ ] 6. Delta
+- [x] 6. Delta
 - [ ] 7. Modules
   - [ ] Toolbar
   - [ ] Keyboard
