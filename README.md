@@ -2,16 +2,16 @@
 
 ![image](https://github.com/jaenfigueroa/poc_quill/assets/69079292/b816526f-3771-472c-a8e2-5bb0977c073c)
 
-- [ ] 1. Quickstart
-- [ ] 2. Installation
-- [ ] 3. Configuration
-- [ ] 4. Formats
-- [ ] 5. API
-  - [ ] Content
-  - [ ] Formatting
-  - [ ] Selection
-  - [ ] Editor
-  - [ ] Events
+- [x] 1. Quickstart
+- [x] 2. Installation
+- [x] 3. Configuration
+- [x] 4. Formats
+- [x] 5. API
+  - [x] Content
+  - [x] Formatting
+  - [x] Selection
+  - [x] Editor
+  - [x] Events
   - [ ] Model
   - [ ] Extension
 - [ ] 6. Delta
