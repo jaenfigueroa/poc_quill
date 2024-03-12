@@ -78,5 +78,5 @@ Playground Delta: https://quilljs.com/docs/delta
   - [ ] Clipboard
   - [ ] Syntax
 - [ ] 8. Registries
-- [ ] 9. Themes
+- [x] 9. Themes
 
