@@ -71,8 +71,10 @@ Playground Delta: https://quilljs.com/docs/delta
   - [x] Changes
     - [x] Delete
     - [x] Retain
-- [ ] 7. Modules
-  - [ ] Toolbar
+- [x] 7. Modules
+  - [x] Toolbar
+    - [x] Container
+    - [x] Handlers
   - [ ] Keyboard
   - [ ] History
   - [ ] Clipboard
