@@ -2,6 +2,9 @@ Source: https://quilljs.com/
 
 Formats: https://quilljs.com/docs/formats
 
+Playgroudn: https://quilljs.com/playground/snow 
+Playground Delta: https://quilljs.com/docs/delta 
+
 ![image](https://github.com/jaenfigueroa/poc_quill/assets/69079292/8dd04b9d-dcd9-49de-95a0-cd72342ac314)
 
 ## Documentation
