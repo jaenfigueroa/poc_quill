@@ -70,7 +70,7 @@ Playground Delta: https://quilljs.com/docs/delta
   - [x] Line Formatting
   - [x] Changes
     - [x] Delete
-    - [x] Reatain  
+    - [x] Retain  
 - [ ] 7. Modules
   - [ ] Toolbar
   - [ ] Keyboard
