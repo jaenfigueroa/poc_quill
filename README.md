@@ -1,6 +1,8 @@
-[Ejemplo de referencia](https://quilljs.com/docs/formats)
+Source: https://quilljs.com/
+
 ![image](https://github.com/jaenfigueroa/poc_quill/assets/69079292/8dd04b9d-dcd9-49de-95a0-cd72342ac314)
 
+[Formats](https://quilljs.com/docs/formats)
 
 - [x] 1. Quickstart
 - [x] 2. Installation
@@ -23,3 +25,4 @@
   - [ ] Syntax
 - [ ] 8. Registries
 - [ ] 9. Themes
+
