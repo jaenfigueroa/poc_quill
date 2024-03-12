@@ -1,6 +1,6 @@
 [Ejemplo de referencia](https://quilljs.com/docs/formats)
+![image](https://github.com/jaenfigueroa/poc_quill/assets/69079292/8dd04b9d-dcd9-49de-95a0-cd72342ac314)
 
-![image](https://github.com/jaenfigueroa/poc_quill/assets/69079292/b816526f-3771-472c-a8e2-5bb0977c073c)
 
 - [x] 1. Quickstart
 - [x] 2. Installation
