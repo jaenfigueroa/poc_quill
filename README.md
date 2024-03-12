@@ -65,6 +65,12 @@ Playground Delta: https://quilljs.com/docs/delta
       - [ ] addContainer
       - [ ] getModule
 - [x] 6. Delta
+  - [x] Document
+  - [x] Embeds
+  - [x] Line Formatting
+  - [x] Changes
+    - [x] Delete
+    - [x] Reatain  
 - [ ] 7. Modules
   - [ ] Toolbar
   - [ ] Keyboard
