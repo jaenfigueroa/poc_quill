@@ -1,3 +1,5 @@
+import toolbarOptions from "./toolbaroptions"
+
 const options = {
   // debug: 'info', // activar/desactivar el modo de depuración, mensajes en consola
   // readonly: false, // activar/desactivar el modo de solo lectura
@@ -10,13 +12,12 @@ const options = {
 
   modules: { 
     toolbar: {
-      container: '#toolbar-container', // id del contenedor de la barra de herramientas
-      handlers: {
-        bold: () => console.log('se ha pulsado el botón de negrita'), // Controlador de negrita personalizado
-        italic: () => console.log('se ha pulsado el botón de cursiva'), // Controlador de cursiva personalizado
-      }
+      container: toolbarOptions, // id del contenedor de la barra de herramientas
+      // handlers: {
+      //   bold: () => console.log('se ha pulsado el botón de negrita'), // Controlador de negrita personalizado
+      //   italic: () => console.log('se ha pulsado el botón de cursiva'), // Controlador de cursiva personalizado
+      // }
     },
-    syntax: true, // ???
   },
 }
 
