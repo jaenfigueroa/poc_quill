@@ -1,3 +1,5 @@
+import quill from ".";
+
 const options = {
   // debug: 'info', // activar/desactivar el modo de depuración, mensajes en consola
   // readonly: false, // activar/desactivar el modo de solo lectura
@@ -14,6 +16,16 @@ const options = {
       handlers: {
         bold: () => console.log('se ha pulsado el botón de negrita'), // Controlador de negrita personalizado
         italic: () => console.log('se ha pulsado el botón de cursiva'), // Controlador de cursiva personalizado
+        color: () => console.log('se cambio el color'), // la etiqueta es ql-color , "color" es el nombre del atributo a poner aqui
+        // link: (value) => {
+        //   console.log(value)
+        //   if (value) {
+        //     const href = prompt('Ingresa la URL');
+        //     quill.format('link', href);
+        //   } else {
+        //     quill.format('link', false);
+        //   }
+        // }
       }
     },
     syntax: true, // ???
