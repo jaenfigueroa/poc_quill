@@ -1,4 +1,3 @@
-import quill from ".";
 
 const options = {
   // debug: 'info', // activar/desactivar el modo de depuración, mensajes en consola
@@ -28,7 +27,10 @@ const options = {
         // }
       }
     },
-    syntax: true, // ???
+    // Keyboard: {
+    //   bindings: {}
+    // }
+    syntax: true, // permitir cambiar el lenguage cuando es un bloque de código
   },
 }
 

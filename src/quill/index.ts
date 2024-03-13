@@ -10,10 +10,6 @@ export default quill
 
 
 
-
-
-
-
 // Establecer el contenido inicial del editor usando un Delta
 const Delta = Quill.import('delta')
 
@@ -23,5 +19,7 @@ quill.setContents(
     .insert('Mundo, ', { bold: true })
     .insert('Mi nombre es ', { italic: true })
     .insert('Jaen', { color: '#00f', bold: true, italic: true })
-    .insert('\n')
+    .insert('\n'),
 )
+
+

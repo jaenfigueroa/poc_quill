@@ -75,10 +75,10 @@ Playground Delta: https://quilljs.com/docs/delta
   - [x] Toolbar
     - [x] Container
     - [x] Handlers
-  - [ ] Keyboard
+  - [x] Keyboard
   - [ ] History
   - [ ] Clipboard
-  - [ ] Syntax
+  - [x] Syntax
 - [x] 8. Registries
 - [x] 9. Themes
 
