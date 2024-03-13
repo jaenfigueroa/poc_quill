@@ -81,3 +81,6 @@ Playground Delta: https://quilljs.com/docs/delta
   - [ ] Syntax
 - [x] 8. Registries
 - [x] 9. Themes
+
+
+Personalizar toolbar usando arrays en typescript: https://github.com/jaenfigueroa/poc_quill/tree/toolbar-array
