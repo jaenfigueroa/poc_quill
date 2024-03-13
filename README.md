@@ -77,8 +77,24 @@ Playground Delta: https://quilljs.com/docs/delta
     - [x] Handlers
   - [x] Keyboard
   - [ ] History
+    - [ ] Configuration
+      - [ ] delay
+      - [ ] maxStack
+      - [ ] userOnly
+    - [ ] API
+      - [ ] clear
+      - [ ] cutoff
+      - [ ] undo
+      - [ ] redo
   - [ ] Clipboard
+    - [ ] API
+      - [ ] addMatcher
+      - [ ] dangerouslyPasteHTML
+    - [ ] configuration
+      - [ ] matchers
   - [x] Syntax
+    - [x] Usage
+    - [x] Use npm package
 - [x] 8. Registries
 - [x] 9. Themes
 
