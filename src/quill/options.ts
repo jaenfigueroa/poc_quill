@@ -1,4 +1,3 @@
-
 const options = {
   // debug: 'info', // activar/desactivar el modo de depuración, mensajes en consola
   // readonly: false, // activar/desactivar el modo de solo lectura
@@ -9,7 +8,7 @@ const options = {
     MODULOS
   */
 
-  modules: { 
+  modules: {
     toolbar: {
       container: '#toolbar-container', // id del contenedor de la barra de herramientas
       handlers: {
@@ -25,12 +24,21 @@ const options = {
         //     quill.format('link', false);
         //   }
         // }
-      }
+      },
     },
     // Keyboard: {
     //   bindings: {}
     // }
     syntax: true, // permitir cambiar el lenguage cuando es un bloque de código
+    styles: {
+      // '.ql-size-h1': {
+      //   'font-size': '50px',
+      // },
+      // '.ql-size-h2': {
+      //   'font-size': '50px',
+      // },
+      // Y así sucesivamente para los demás tamaños
+    },
   },
 }
 
